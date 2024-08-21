@@ -2,7 +2,7 @@
 
 This repository shows an example for how behavioural data can be arranged following the BIDS convention. 
 
-The example input data consists of 3 .csv files per participant with consistent filenames, i.e., <subID>_210_all_data.csv,  <subID>_211_all_data.csv, <subID>_212_all_data.csv.
+The example input data consists of typically 3 .csv files per participant with consistent filenames, i.e., <subID>_210_all_data.csv,  <subID>_211_all_data.csv, <subID>_212_all_data.csv (although do note that not all participants have all file types).
 
 Running the bash script 'organize_bids.sh' will organise each participants' data into separate folders. Output consists of:
 
