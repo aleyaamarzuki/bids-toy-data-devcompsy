@@ -6,10 +6,24 @@ The example input data consists of 3 .csv files per participant with consistent 
 
 Running the bash script 'organize_bids.sh' will organise each participants' data into separate folders. Output consists of:
 
+- a single dataset_description.json file with details of the data overall
+- a 'participants.tsv' file listing all subject IDs
 - separate folders per subject
 - data files converted to .tsv
 - .json files describing column data per subject and task file
 
-  Outside of the subject folders:
-- a single dataset_description.json file with details of the data overall
-- a 'participants.tsv' file listing all subject IDs
+To run the bash script:
+1. Download the data from the raw_pilot_data folder
+2. Edit the input and output directories in the .sh script based on how you've named your folders
+3. Save the .sh file in a sensible directory
+4. Using command line with 'bash' capabilities, cd to where your .sh script is
+5. Make the script executable by typing:
+   ```
+   chmod +x organize_bids.sh
+   ```
+6. Run the script:
+   ```
+  ./organize_bids.sh
+   ```
+
+The output should follow the structure of 'bids_pilot_data' on this repository.
