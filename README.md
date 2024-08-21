@@ -13,7 +13,7 @@ Running the bash script 'organize_bids.sh' will organise each participants' data
 - .json files describing column data per subject and task file
 
 To run the bash script:
-1. Download the data from the raw_pilot_data folder
+1. Download the data from the toy_data folder
 2. Edit the input and output directories in the .sh script based on how you've named your folders
 3. Save the .sh file in a sensible directory
 4. Using command line with 'bash' capabilities, cd to where your .sh script is
