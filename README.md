@@ -26,4 +26,5 @@ To run the bash script:
    ./organize_bids.sh
    ```
 
-
+Software:
+I ran this on conda 4.13.0 using GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
