@@ -6,7 +6,7 @@ The example input data consists of 3 .csv files per participant with consistent 
 
 Running the bash script 'organize_bids.sh' will organise each participants' data into separate folders. Output consists of:
 
-- a single dataset_description.json file with details of the data overall
+- a single 'dataset_description.json' file with details of the data overall
 - a 'participants.tsv' file listing all subject IDs
 - separate folders per subject
 - data files converted to .tsv
