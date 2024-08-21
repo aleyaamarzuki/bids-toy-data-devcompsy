@@ -43,7 +43,7 @@ for csv_file in "$input_dir"/*.csv; do
     json_file="$subject_dir/sub-${subject_id}_task-${task_id}_beh.json"
     cat <<EOT >> "$json_file"
 
-#these are just examples, change depending on your columns
+# these are just examples, change depending on your columns
 {
   "TaskName": "$task_id", 
   "Columns": {
