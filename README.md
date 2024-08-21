@@ -23,7 +23,7 @@ To run the bash script:
    ```
 6. Run the script:
    ```
-  ./organize_bids.sh
+   ./organize_bids.sh
    ```
-
+   
 The output should follow the structure of 'bids_pilot_data' on this repository.
