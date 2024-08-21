@@ -39,11 +39,9 @@ for csv_file in "$input_dir"/*.csv; do
     tsv_file="$subject_dir/sub-${subject_id}_task-${task_id}_beh.tsv"
     tr ',' '\t' < "$csv_file" > "$tsv_file"
     
-    # Create the accompanying JSON file for the TSV
+    # Create the accompanying JSON file for the TSV (example)
     json_file="$subject_dir/sub-${subject_id}_task-${task_id}_beh.json"
     cat <<EOT >> "$json_file"
-
-# these are just examples, change depending on your columns
 {
   "TaskName": "$task_id", 
   "Columns": {
