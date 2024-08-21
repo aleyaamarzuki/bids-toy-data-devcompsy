@@ -25,5 +25,5 @@ To run the bash script:
    ```
    ./organize_bids.sh
    ```
-   
-The output should follow the structure of 'bids_pilot_data' on this repository.
+
+
