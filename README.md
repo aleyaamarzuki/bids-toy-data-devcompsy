@@ -28,3 +28,8 @@ To run the bash script:
 
 Software:
 I ran this on conda 4.13.0 using GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+
+## Licenses
+
+* This experiment is released under the AGPLv3 License. See the [LICENSE](experiment/LICENSE) file for more information.
+* The data is released under the CC-BY-4.0 License. See the [LICENSE](data/LICENSE) file for more information.

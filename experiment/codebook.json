@@ -1,0 +1,22 @@
+{
+    "variables": "meaning",
+    "rt": "reaction time",
+    "correct": "[always false in this experiment] correct (true) or incorrect (false) response",
+    "stimulus": "the physical stimuli displayed (words)",
+    "key_press": "the response key pressed",
+    "keys": "the counterbalanced response keys, where first is common and second is rare",
+    "symptom1": "first abstract feature",
+    "symptom2": "second abstract feature",
+    "key": "[training] the correct key for the current stimulus",
+    "category": "[training] the correct category (common or rare)",
+    "phase": "the current phase (training, test)",
+    "trial": "the number of the current trial within phase",
+    "include": "whether to include trial in final data set",
+    "trial_type": "the JSPsych plugin used to run the trial",
+    "trial_index": "The index of the current trial component across the whole experiment",
+    "time_elapsed": "The number of milliseconds since the start of the experiment when the trial ended",
+    "internal_node_id": "ID of the internal TimelineNode",
+    "ppt": "unique participant ID from SONA",
+    "session": "date and hour",
+    "abresp": "the abstract response converted from key_press (common, rare, none)"
+}
